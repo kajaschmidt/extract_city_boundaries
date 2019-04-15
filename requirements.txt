@@ -1,0 +1,9 @@
+pycountry
+geopandas
+shapely
+fiona
+plotly
+rtree
+pandas
+overpass
+overpy
