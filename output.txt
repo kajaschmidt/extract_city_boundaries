@@ -1,0 +1,486 @@
+----------------------------------------------------------------
+START: PROCESSING cities.csv
+[1/5] 59 empty rows (from 13199) found and dropped from DF
+[2/5] Fixed Macintosh encoding errors
+[3/5] Filled missing iso2 entries
+[4/5] Matched DF to demoDF (added iso3 column, renamed and dropped columns)
+[5/5] Converted DF to geoDF using lon/lat
+END: PROCESSED cities.csv
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR FR
+[1/5] Extracted polygonDF for FR
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for FR
+[4/5] 0 entries from 58 lost in spatial join (0.0%)
+[5/5] FR_poly.geojson and FR_multi.geojson were generated.
+
+Run "geojson-merge FR_poly.geojson FR_multi.geojson > FR.geojson" in terminal to generate FR.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR FR GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR ES
+[1/5] Extracted polygonDF for ES
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for ES
+[4/5] 0 entries from 49 lost in spatial join (0.0%)
+[5/5] ES_poly.geojson and ES_multi.geojson were generated.
+
+Run "geojson-merge ES_poly.geojson ES_multi.geojson > ES.geojson" in terminal to generate ES.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR ES GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR SE
+[1/5] Extracted polygonDF for SE
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for SE
+[4/5] 0 entries from 35 lost in spatial join (0.0%)
+[5/5] SE_poly.geojson and SE_multi.geojson were generated.
+
+Run "geojson-merge SE_poly.geojson SE_multi.geojson > SE.geojson" in terminal to generate SE.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR SE GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR DE
+[1/5] Extracted polygonDF for DE
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for DE
+[4/5] 0 entries from 365 lost in spatial join (0.0%)
+[5/5] DE_poly.geojson and DE_multi.geojson were generated.
+
+Run "geojson-merge DE_poly.geojson DE_multi.geojson > DE.geojson" in terminal to generate DE.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR DE GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR FI
+[1/5] Extracted polygonDF for FI
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for FI
+[4/5] 2 entries from 24 lost in spatial join (8.333333333333332%)
+[5/5] FI_poly.geojson and FI_multi.geojson were generated.
+
+Run "geojson-merge FI_poly.geojson FI_multi.geojson > FI.geojson" in terminal to generate FI.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR FI GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR NO
+[1/5] Extracted polygonDF for NO
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for NO
+[4/5] 3 entries from 36 lost in spatial join (8.333333333333332%)
+[5/5] NO_poly.geojson and NO_multi.geojson were generated.
+
+Run "geojson-merge NO_poly.geojson NO_multi.geojson > NO.geojson" in terminal to generate NO.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR NO GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR PL
+[1/5] Extracted polygonDF for PL
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for PL
+[4/5] 0 entries from 25 lost in spatial join (0.0%)
+[5/5] PL.geojson was generated.
+END: GEOJSON FOR PL GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR IT
+[1/5] Extracted polygonDF for IT
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for IT
+[4/5] 3 entries from 56 lost in spatial join (5.357142857142857%)
+[5/5] IT_poly.geojson and IT_multi.geojson were generated.
+
+Run "geojson-merge IT_poly.geojson IT_multi.geojson > IT.geojson" in terminal to generate IT.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR IT GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR GB
+[1/5] Extracted polygonDF for GB
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for GB
+[4/5] 5 entries from 228 lost in spatial join (2.1929824561403506%)
+[5/5] GB_poly.geojson and GB_multi.geojson were generated.
+
+Run "geojson-merge GB_poly.geojson GB_multi.geojson > GB.geojson" in terminal to generate GB.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR GB GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR RO
+[1/5] Extracted polygonDF for RO
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for RO
+[4/5] 0 entries from 42 lost in spatial join (0.0%)
+[5/5] RO_poly.geojson and RO_multi.geojson were generated.
+
+Run "geojson-merge RO_poly.geojson RO_multi.geojson > RO.geojson" in terminal to generate RO.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR RO GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR BY
+No data available for BY. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR GR
+[1/5] Extracted polygonDF for GR
+[2/5] Switched projection from  epsg:2100 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for GR
+[4/5] 0 entries from 31 lost in spatial join (0.0%)
+[5/5] GR_poly.geojson and GR_multi.geojson were generated.
+
+Run "geojson-merge GR_poly.geojson GR_multi.geojson > GR.geojson" in terminal to generate GR.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR GR GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR BG
+[1/5] Extracted polygonDF for BG
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for BG
+[4/5] 0 entries from 27 lost in spatial join (0.0%)
+[5/5] BG_poly.geojson and BG_multi.geojson were generated.
+
+Run "geojson-merge BG_poly.geojson BG_multi.geojson > BG.geojson" in terminal to generate BG.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR BG GENERATED
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR IS
+[1/5] Extracted polygonDF for IS
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for IS
+[4/5] 2 entries from 9 lost in spatial join (22.22222222222222%)
+[5/5] IS_poly.geojson and IS_multi.geojson were generated.
+
+Run "geojson-merge IS_poly.geojson IS_multi.geojson > IS.geojson" in terminal to generate IS.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR IS GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR PT
+No data available for PT. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR CZ
+[1/5] Extracted polygonDF for CZ
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for CZ
+[4/5] 0 entries from 13 lost in spatial join (0.0%)
+[5/5] CZ_poly.geojson and CZ_multi.geojson were generated.
+
+Run "geojson-merge CZ_poly.geojson CZ_multi.geojson > CZ.geojson" in terminal to generate CZ.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR CZ GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR DK
+[1/5] Extracted polygonDF for DK
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for DK
+[4/5] 0 entries from 12 lost in spatial join (0.0%)
+[5/5] DK_poly.geojson and DK_multi.geojson were generated.
+
+Run "geojson-merge DK_poly.geojson DK_multi.geojson > DK.geojson" in terminal to generate DK.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR DK GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR HU
+[1/5] Extracted polygonDF for HU
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for HU
+[4/5] 0 entries from 25 lost in spatial join (0.0%)
+[5/5] HU.geojson was generated.
+END: GEOJSON FOR HU GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR RS
+No data available for RS. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR AT
+[1/5] Extracted polygonDF for AT
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for AT
+[4/5] 0 entries from 10 lost in spatial join (0.0%)
+[5/5] AT.geojson was generated.
+END: GEOJSON FOR AT GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR IE
+[1/5] Extracted polygonDF for IE
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for IE
+[4/5] 2 entries from 34 lost in spatial join (5.88235294117647%)
+[5/5] IE_poly.geojson and IE_multi.geojson were generated.
+
+Run "geojson-merge IE_poly.geojson IE_multi.geojson > IE.geojson" in terminal to generate IE.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR IE GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR LT
+[1/5] Extracted polygonDF for LT
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for LT
+[4/5] 0 entries from 54 lost in spatial join (0.0%)
+[5/5] LT_poly.geojson and LT_multi.geojson were generated.
+
+Run "geojson-merge LT_poly.geojson LT_multi.geojson > LT.geojson" in terminal to generate LT.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR LT GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR LV
+[1/5] Extracted polygonDF for LV
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for LV
+[4/5] 0 entries from 113 lost in spatial join (0.0%)
+[5/5] LV_poly.geojson and LV_multi.geojson were generated.
+
+Run "geojson-merge LV_poly.geojson LV_multi.geojson > LV.geojson" in terminal to generate LV.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR LV GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR HR
+[1/5] Extracted polygonDF for HR
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for HR
+[4/5] 0 entries from 21 lost in spatial join (0.0%)
+[5/5] HR_poly.geojson and HR_multi.geojson were generated.
+
+Run "geojson-merge HR_poly.geojson HR_multi.geojson > HR.geojson" in terminal to generate HR.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR HR GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR BA
+No data available for BA. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR SK
+[1/5] Extracted polygonDF for SK
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for SK
+[4/5] 0 entries from 9 lost in spatial join (0.0%)
+[5/5] SK_poly.geojson and SK_multi.geojson were generated.
+
+Run "geojson-merge SK_poly.geojson SK_multi.geojson > SK.geojson" in terminal to generate SK.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR SK GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR EE
+[1/5] Extracted polygonDF for EE
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for EE
+[4/5] 0 entries from 17 lost in spatial join (0.0%)
+[5/5] EE_poly.geojson and EE_multi.geojson were generated.
+
+Run "geojson-merge EE_poly.geojson EE_multi.geojson > EE.geojson" in terminal to generate EE.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR EE GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR NL
+[1/5] Extracted polygonDF for NL
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for NL
+[4/5] 0 entries from 15 lost in spatial join (0.0%)
+[5/5] NL_poly.geojson and NL_multi.geojson were generated.
+
+Run "geojson-merge NL_poly.geojson NL_multi.geojson > NL.geojson" in terminal to generate NL.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR NL GENERATED
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR CH
+[1/5] Extracted polygonDF for CH
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for CH
+[4/5] 0 entries from 32 lost in spatial join (0.0%)
+[5/5] CH_poly.geojson and CH_multi.geojson were generated.
+
+Run "geojson-merge CH_poly.geojson CH_multi.geojson > CH.geojson" in terminal to generate CH.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR CH GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR MD
+No data available for MD. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR BE
+[1/5] Extracted polygonDF for BE
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for BE
+[4/5] 0 entries from 10 lost in spatial join (0.0%)
+[5/5] BE.geojson was generated.
+END: GEOJSON FOR BE GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR AL
+No data available for AL. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR MK
+No data available for MK. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR SI
+[1/5] Extracted polygonDF for SI
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for SI
+[4/5] 0 entries from 212 lost in spatial join (0.0%)
+[5/5] SI_poly.geojson and SI_multi.geojson were generated.
+
+Run "geojson-merge SI_poly.geojson SI_multi.geojson > SI.geojson" in terminal to generate SI.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR SI GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR ME
+No data available for ME. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR CY
+[1/5] Extracted polygonDF for CY
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for CY
+[4/5] 0 entries from 6 lost in spatial join (0.0%)
+[5/5] CY.geojson was generated.
+END: GEOJSON FOR CY GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR LU
+[1/5] Extracted polygonDF for LU
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for LU
+[4/5] 0 entries from 12 lost in spatial join (0.0%)
+[5/5] LU.geojson was generated.
+END: GEOJSON FOR LU GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR FO
+No data available for FO. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR AD
+[1/5] Extracted polygonDF for AD
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for AD
+[4/5] 0 entries from 7 lost in spatial join (0.0%)
+[5/5] AD.geojson was generated.
+END: GEOJSON FOR AD GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR MT
+[1/5] Extracted polygonDF for MT
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for MT
+[4/5] 2 entries from 68 lost in spatial join (2.941176470588235%)
+[5/5] MT_poly.geojson and MT_multi.geojson were generated.
+
+Run "geojson-merge MT_poly.geojson MT_multi.geojson > MT.geojson" in terminal to generate MT.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR MT GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR LI
+[1/5] Extracted polygonDF for LI
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for LI
+[4/5] 0 entries from 11 lost in spatial join (0.0%)
+[5/5] LI_poly.geojson and LI_multi.geojson were generated.
+
+Run "geojson-merge LI_poly.geojson LI_multi.geojson > LI.geojson" in terminal to generate LI.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR LI GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR GG
+No data available for GG. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR SM
+[1/5] Extracted polygonDF for SM
+[2/5] Switched projection from  epsg:4258 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for SM
+[4/5] 0 entries from 4 lost in spatial join (0.0%)
+[5/5] SM.geojson was generated.
+END: GEOJSON FOR SM GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR GI
+No data available for GI. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR MC
+No data available for MC. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR VA
+No data available for VA. Make sure you are using iso2 as input values.
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR CA
+[1/5] Extracted polygonDF for CA
+[2/5] Switched projection from  epsg:3347 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for CA
+[4/5] 156 entries from 250 lost in spatial join (62.4%)
+[5/5] CA_poly.geojson and CA_multi.geojson were generated.
+
+Run "geojson-merge CA_poly.geojson CA_multi.geojson > CA.geojson" in terminal to generate CA.geojson.
+
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR CA GENERATED
+----------------------------------------------------------------
+----------------------------------------------------------------
+START: GENERATE GEOJSON FOR US
+[1/5] Extracted polygonDF for US
+[2/5] Switched projection from  epsg:4269 to epsg:4326 (WGS84)
+[3/5] Generated pointsDF for US
+[4/5] 502 entries from 4848 lost in spatial join (10.354785478547855%)
+[5/5] US_poly.geojson and US_multi.geojson were generated.
+        
+Run "geojson-merge US_poly.geojson US_multi.geojson > US.geojson" in terminal to generate US.geojson.
+        
+(You may have to run "npm install @mapbox/geojson-normalize" first.)
+END: GEOJSON FOR US GENERATED
+----------------------------------------------------------------
